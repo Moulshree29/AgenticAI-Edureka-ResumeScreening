@@ -16,6 +16,7 @@ import re
 
 # Load environment variables
 load_dotenv()
+sqlite3 --version
 
 # Configure Google AI API 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
